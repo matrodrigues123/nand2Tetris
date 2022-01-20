@@ -83,9 +83,9 @@ class SymbolTable:
 
 
 def main():
-    fo1 = open("pong\\Pong.asm", "r")
-    fo2 = open("pong\\Pong.asm", "r")
-    output = open("pong\\Pong.hack", "w")
+    fo1 = open("06 - Assembler\\Max.asm", "r")
+    fo2 = open("06 - Assembler\\Max.asm", "r")
+    output = open("06 - Assembler\\Max.hack", "w")
 
     code = Code()
     symbolTable = SymbolTable()
